@@ -1,0 +1,111 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* golabal style */
+.flex-box{
+    display: flex;
+}
+.containar{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.position-relative{
+    position: relative;
+}
+h6{
+    font-size: 16px;
+    color:  rgb(181, 181, 181);
+}
+i{
+    color: black;
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+.color-text-green{
+    color: rgb(116, 180, 158); ;
+}
+/* custom style */
+.custom-padding{
+    padding: 2%;
+}
+.color-text-lightgray{
+    color: lightgray;
+}
+.color-text-lightgray:hover a{
+    color: rgb(116, 180, 158);
+}
+.profile-card {
+    width: 30%;
+    box-shadow: 0px 0px 5px 4px lightgray;
+    background-color: white
+}
+.line{
+    border: 2px solid black;
+    width: 10%;
+    
+}
+.card-overlay{
+    background-color: rgba(18, 18, 18, 0.705);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 3%;
+    align-items: center;
+    display: none;
+}
+.profile-card img{
+    width: 100%;
+    display: block;
+}
+.profile-card:hover .card-overlay{
+    display: flex;
+    align-items: end;
+}
+.profile-card-body{
+     padding: 3%;
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.custom-pad-right-left{
+    padding: 0% 5%;
+}
+.profile-img2 {
+    /* width: 120px; */
+    /* height: 120px; */
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid #fff;
+    z-index: 1;
+    position: absolute;
+    top: 75%;
+    left: 69%;
+    object-fit: cover;
+}
+.profile-img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.width26{
+    width: 26%;
+}
