@@ -1,0 +1,25 @@
+tr:nth-child(1){
+    background-color: rgb(3, 154, 223);
+    color: white;
+}
+tr:nth-child(3) , tr:nth-child(5){
+    background-color: lightgray;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    padding: 2%;
+    margin:auto;
+    border: 1px solid white;
+}
+td:nth-child(n+2){
+    border-bottom:1px  solid  rgb(3, 154, 223);
+     border-top:1px  solid  rgb(3, 154, 223);
+}
+td,th{
+    padding: 1% 4%;
+}
+
+th,td{
+    border-right:1px solid  white ;
+}

@@ -19,7 +19,15 @@ nav ul {
     justify-content: space-between;
     padding-right: 3%;
 }
-
+strong{
+    font-size: 255%;
+    font-weight: normal;
+    padding-bottom: 3%;
+}
+p{
+    font-size: 13px;
+    padding-bottom: 20%;
+}
 nav ul li {
     margin-left: 4%;
 }
@@ -27,20 +35,35 @@ nav{
     background: inherit;
 
 }
+h4{
+    font-size: 120%;
+}
+ h6{
+    font-size: 100%;
+ }
 /*global style*/
 .d-flex{
     display: flex;
 
 }
-h4{
-    font-size: 100%;
+.justify-content-between{
+    justify-content:space-between ;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.position-relative{
+    position: relative;
 }
 .align-center{
     align-items: center;
 }
-.font-fam{
-    font-family: cursive;
+.text-center{
+    text-align: center;
 }
+.width100{
+    width: 100%;
+} 
 .bg-white{
     background-color: white;
 
@@ -60,25 +83,28 @@ h4{
 .text-color-lightgray{
     color: lightgray;
 }
-.container{
-    width: 80%;
-    padding:2% 0%;
-    margin: 0% 7%;
+.container {
+    width: 90%;
+    padding: 2% 2%;
+     
 }
 .icon{
     font-size: 80%;
-    color: white;
+   
 }
 .icon2{
     font-size: 80%;
-    color: white;
+    
     padding: 0% 1%;
 }
- 
+.bar-icon{
+    display: none;
+    align-items: end;
+}
 .btn-dark-blue{
     background-color: white;
     color: darkblue;
-    padding: 8% 26%;
+    padding: 9% 26%;
     border-radius: 38px;
     display: flex;
     margin: 0% 2%;
@@ -88,10 +114,115 @@ h4{
 .margin-right{
     margin-right: 35% ;
 }
-.width40{
+.width40with-margin{
     width: 40%;
+    margin: auto;
+}
+.btn{
+    padding: 3%;
+    border-radius: 38px;
+    white-space: nowrap;
+    border: 1px solid white;
+     
+}
+ .item-end{
+    margin-left: 87%;
+    
+}
+ 
+.width50{
+    width: 50%;
 }
 /*custom style*/
 .custom-padding{
     padding: 2% 3%;
+}
+.padding-top-botttom{
+    padding: 16% 0%;
+}
+.custom-p{
+    padding-bottom: 5%;
+}
+.line{
+    border: 1px solid lightgray;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 90%;
+    text-align: center;
+    
+}
+.width40{
+    width: 40%;
+}
+.width75{
+    width: 75%;
+}
+.custom-border{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 3%;
+}
+.width80{
+    width: 80%;
+}
+.custom-input-border{
+    border: none;
+    border-radius: 36px;
+    background-color: lightgray;
+    padding: 1%;
+}
+.custom-border-dark-blue{
+    padding: 1%;
+    border:  none;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 55);
+    color: white;
+
+}
+.width32{
+    width: 32%;
+}
+.pad-top-bot{
+    padding: 4% 0%;
+
+}
+.img1{
+    width: 80%;
+    padding-left: 13%;
+    margin-left: 5%;
+}
+
+.img2 {
+    aspect-ratio: 1 / 1;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 7px solid #fff;
+    z-index: 1;
+    position: absolute;
+    top: 72%;
+    right: 62%;
+    object-fit: cover;
+}
+.img3{
+    width:100%;
+}
+.img-dog{
+    position: relative;
+    display: flex;
+    margin-left: 17%;
+}
+.img-dog img{
+    width: 100%;
+    
+}
+.img-dog .icon-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+}
+.width45{
+    width: 45%;
 }
