@@ -1,0 +1,126 @@
+ /* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding-left: 2%;
+}
+/* golabl style */
+.bg-lightgray{
+   background-color: #efefef ! important;
+}
+a:hover{
+    color:rgb(187, 0, 0) ;
+}
+
+ *, ::after, ::before {
+    box-sizing: border-box;
+   
+}
+/* custom style */
+/* -----------header------- */
+header .dropdown-menu .dropdown-item:hover{
+    background-color: white;
+    color: rgb(187, 0, 0);
+}
+.font-size{
+    font-size: 13px;
+}
+
+/* -------------Nav Bar----------- */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 90%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.custom-left-border{
+    border:none ;
+    border-left: 1px soled rgb(179, 179, 179);
+}
+.width10{
+    width: 10%;
+}
+.width100{
+    width: 100%;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #fff !important;
+}
+
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    border-right: solid 1px lightgray;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+nav form{
+    margin: 0% auto;
+     padding: .5rem; 
+}
+.me-2 {
+    margin-right: 18.5rem !important;
+}
+
+nav h5{
+    font-weight: 600;
+    margin-right: 8%;
+    font-size: 17px;
+}
+nav h6{
+    font-size: 20px;
+    margin:0% 1%;
+}
+.badge {
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.55em;
+    --bs-badge-font-weight: 691;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: var(--bs-border-radius)
+0.375rem
+;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    color: var(--bs-badge-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+}
+nav h6:hover{
+    color: rgb(187, 0, 0);
+}
+nav h5:hover{
+    color: rgb(187, 0, 0);
+}
