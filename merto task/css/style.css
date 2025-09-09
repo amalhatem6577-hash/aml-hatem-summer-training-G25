@@ -20,10 +20,14 @@ ul{
 a:hover{
     color:rgb(187, 0, 0) ;
 }
-
+ul li:hover{
+    color:rgb(187, 0, 0) ;
+}
+.color-text-white{
+    color: white;
+}
  *, ::after, ::before {
     box-sizing: border-box;
-   
 }
 /* custom style */
 /* -----------header------- */
@@ -123,4 +127,62 @@ nav h6:hover{
 }
 nav h5:hover{
     color: rgb(187, 0, 0);
+}
+/* -----------section1---------- */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.section1 .carousel-inner button:hover{
+    background-color: black;
+
+    color: white;
+
+}
+.custom-margin-bottom{
+    margin-bottom: 13%;
+}
+.custom-margin-bottom2{
+    margin-bottom: 20%;
+}
+.font-size-h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+.bg-beige{
+    background-color: rgb(224, 187, 146);
+}
+
+.carousel-item img{
+   
+    object-fit: contain;
+}
+/* ---------------section2------------- */
+.icon{
+    font-size: 50px;
+}
+.icone:hover{
+    color: black;
+}
+/* ---------------section3---------------- */
+ card{
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0px 4px 15px lightgray;
+    transform: translateY(-5px);
+}
+.icon-box{
+    background-color: lightgray;
+    padding: 6px 8px;
+    border-radius: 50%;
+    display: none;
+    color: black;
+    font-size: 18px;
+}
+.card:hover .icon-box{
+    display: block;
+    color: white;
+    background-color: black;
 }
