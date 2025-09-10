@@ -63,11 +63,9 @@ header .dropdown-menu .dropdown-item:hover{
     --bs-bg-opacity: 1;
     background-color: #fff !important;
 }
-
-.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
-    position: relative;
+ .custom-border-right{
     border-right: solid 1px lightgray;
-}
+ }
 .form-control {
     display: block;
     width: 100%;
@@ -134,7 +132,14 @@ nav h5:hover{
     height: 10px;
     border-radius: 50%;
 }
-.section1 .carousel-inner button:hover{
+.btn-shop-now{
+    background-color: inherit;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.btn-shop-now:hover{
     background-color: black;
 
     color: white;
@@ -150,9 +155,7 @@ nav h5:hover{
     font-size: 70px;
     font-weight: bolder;
 }
-.bg-beige{
-    background-color: rgb(224, 187, 146);
-}
+
 
 .carousel-item img{
    
@@ -166,7 +169,7 @@ nav h5:hover{
     color: black;
 }
 /* ---------------section3---------------- */
- card{
+.card{
     transition: all 0.3s ease-in-out;
 }
 .card:hover{
@@ -174,15 +177,79 @@ nav h5:hover{
     transform: translateY(-5px);
 }
 .icon-box{
-    background-color: lightgray;
-    padding: 6px 8px;
+    background-color: rgb(220, 220, 220);
+    padding: 7px 6px;
     border-radius: 50%;
     display: none;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    margin-top: 13%;
 }
 .card:hover .icon-box{
     display: block;
-    color: white;
+  
+}
+.icon-box:hover{
     background-color: black;
+    color: white;
+}
+/* ----------------section5------------ */
+.custom-font-size-h1{
+    font-size: 46px;
+    font-weight: bolder;
+}
+.margin-text{
+    margin-top:-16%;
+    margin-left: 2%;
+}
+.zoom-img{
+    transition: transform 0.5s ease-in;
+}
+.zoom-img:hover{
+    transform: scale(1.1);
+}
+.btn-shop-now2{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.btn-shop-now2:hover{
+    background-color: rgb(255, 255, 255);
+
+    color: rgb(0, 0, 0);
+}
+/* -----------section5------------- */
+.bg-img{
+    background-image: url(../images/sale\ off.png);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    background-size: 100% 121%;
+}
+.sale-circle{
+    background-color: white;
+    border: 1px solid rgb(161, 1, 1);
+    width: 130px;
+    height: 130px;
+    color:  rgb(161, 1, 1);
+    transition: transform 0.3s ease;
+}
+.sale-circle:hover{
+    transform: translateY(-10px);
+    background-color: rgb(249 171 171);
+}
+.custom-sale-circle{
+    background-color:rgb(161, 1, 1) ;
+    width: 130px;
+    height: 130px;
+    color: white;
+    transition: transform 0.3s ease
+}
+.custom-sale-circle:hover{
+     transform: translateY(-10px);
 }
