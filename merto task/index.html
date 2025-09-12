@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-</head>
+
 
 <body>
     <header class="border-bottom border-secondry border-2 pb-2 pt-2">
@@ -66,7 +68,7 @@
                         <a href="#" class="font-size text-nowrap"> Track Order</a>
                     </li>
                     <li class="pe-2">
-                        <a href="contact.html" class="font-size">Contact</a>
+                        <a href="conact.html" class="font-size">Contact</a>
                     </li>
                     <li class="pe-2">
                         <a href="#" class="font-size">FAQs</a>
@@ -103,6 +105,7 @@
     <nav class="navbar bg-body-tertiary bg-white">
 
         <div class=" container-fluid">
+
             <div class="width10">
                 <img src="images/logo-furniture.png" class="width100" alt="">
             </div>
@@ -152,7 +155,8 @@
                     <span class="visually-hidden">unread messages</span>
                 </span>
             </h6>
-             <div class="w-25 bg-danger color-text-white align-items-center p-2 mt-2 rounded-top-3">
+
+            <div class="w-25 bg-danger color-text-white align-items-center p-2 mt-2 rounded-top-3">
                 <h5> <i class="fa-solid fa-bars"></i>
                     SHOP BY Categories
                     <i class="fa-solid fa-chevron-down ps-4"></i>
@@ -307,12 +311,12 @@
                         </a></li>
                 </ul>
             </div>
-        </div> 
+        </div>
 
     </nav>
     <section class="section1 ">
         <div class="container-fluid d-flex ">
-            <div class="w-25 bg-white ">
+            <div class="w-25 bg-white h-50" style="box-shadow: 0px 2px 5px lightgray; border-bottom-left-radius: 5px ; border-bottom-right-radius: 5px;">
                 <ul class="">
                     <li class="border-bottom border-secondry border-2 p-2">
                         <i class="fa-solid fa-couch"></i>
@@ -346,13 +350,13 @@
                         <i class="fa-solid fa-champagne-glasses"></i>
                         <a href=""> Outdoor</a>
                     </li>
-                    <li class="border-bottom border-secondry border-2 p-2">
+                    <li class="">
                         <i class="fa-solid fa-dollar-sign"></i>
                         <a href="">Sale Off</a>
                     </li>
                 </ul>
             </div>
-            <div class="w-75">
+            <div class="w-75" style="margin-left: 1%;">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -410,16 +414,16 @@
             <div class="row pt-5 d-flex pb-5 align-items-center justify-content-between w-100 ">
                 <div class="col-3 d-flex border-end border-secondry ">
                     <div>
-                        <i class="fa-solid fa-truck-fast text-secondary icon d-flex"></i>
+                        <a href="#"><i class="fa-solid fa-truck-fast text-secondary icon d-flex"></i></a>
                     </div>
-                    <div>
+                    <div style="margin-left: 8%;">
                         <h5 class="">Fast,Free Shipping</h5>
                         <p class="text-muted ">On order over 50$</p>
                     </div>
                 </div>
                 <div class="col-3 d-flex border-end border-secondry">
                     <div>
-                        <i class="fa-regular fa-clock text-secondary icon d-flex"></i>
+                        <a href="#"><i class="fa-regular fa-clock text-secondary icon d-flex"></i></a>
                     </div>
                     <div>
                         <h5 class="">Next Day Delivery</h5>
@@ -428,7 +432,7 @@
                 </div>
                 <div class="col-3 d-flex border-end border-secondry">
                     <div>
-                        <i class="fa-solid fa-dollar-sign text-secondary icon d-flex"></i>
+                        <a href="#"><i class="fa-solid fa-dollar-sign text-secondary icon d-flex"></i></a>
                     </div>
                     <div>
                         <h5 class="">Low Price Guarantee</h5>
@@ -437,7 +441,7 @@
                 </div>
                 <div class="col-3 d-flex ">
                     <div>
-                        <i class="fa-regular fa-thumbs-up icon text-secondary d-flex"></i>
+                        <a href="#"><i class="fa-regular fa-thumbs-up icon text-secondary d-flex"></i></a>
                     </div>
                     <div>
                         <h5 class="">Quality Guarantee</h5>
@@ -452,12 +456,12 @@
         <div class="container-fluid">
             <div class=" d-flex justify-content-between align-items-center">
                 <h3 class="mb-5 "> Don't miss this week's sales</h3>
-                <p class="border-bottom mb-5 border-dark">See all products</p>
+                <a href="#" class=" mb-5 under-line">See all products</a>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-0">
 
-                <!-- Product 1 -->
-                <div class="col">
+                <div class="owl-carousel carousel-one">
+
                     <div class="card h-90 position-relative">
                         <img src="images/img.jpg" class="card-img-top" alt="Chair">
                         <span class="badge text-bg-secondary position-absolute m-3 p-2">SOLDOUT</span>
@@ -466,21 +470,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">High seating comfort with built in armrest</h6>
+                            <a href="#" class="card-title">High seating comfort with built in armrest</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$1,465</span>
                                 <span class="text-muted text-decoration-line-through">$1,536</span>
@@ -488,10 +492,7 @@
                             <div class="text-warning">★★★★☆</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Product 2 -->
-                <div class="col">
                     <div class="card h-90 position-relative">
                         <img src="images/img2.jpg" class="card-img-top" alt="Lamp">
                         <span class="badge text-bg-danger position-absolute m-3 p-2">-26%</span>
@@ -500,21 +501,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Slate Table Lamp with Natural Slate Finish</h6>
+                            <a href="#" class="card-title">Slate Table Lamp with Natural Slate Finish</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$138</span>
                                 <span class="text-muted text-decoration-line-through">$188</span>
@@ -522,10 +523,7 @@
                             <div class="text-warning">★★☆☆☆</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Product 3 -->
-                <div class="col">
                     <div class="card h-90 position-relative">
                         <img src="images/img3.jpg" class="card-img-top" alt="Clock">
                         <span class="badge text-bg-danger position-absolute m-3 p-2">-33%</span>
@@ -534,21 +532,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">14-inch Fashion Simplicity Quality Wall Clock</h6>
+                            <a href="#" class="card-title">14-inch Fashion Simplicity Quality Wall Clock</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$50</span>
                                 <span class="text-muted text-decoration-line-through">$75</span>
@@ -556,10 +554,7 @@
                             <div class="text-warning">★★★☆☆</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Product 4 -->
-                <div class="col">
                     <div class="card h-90 position-relative">
                         <img src="images/img4.jpg" class="card-img-top" alt="Chair2">
                         <span class="badge text-bg-danger position-absolute m-3 p-2">-20%</span>
@@ -568,21 +563,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Studio Designs Home, Heather Studio Designs Chair</h6>
+                            <a href="#" class="card-title">Studio Designs Home, Heather Studio Designs Chair</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$192</span>
                                 <span class="text-muted text-decoration-line-through">$239</span>
@@ -590,10 +585,7 @@
                             <div class="text-warning">★★★★☆</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Product 5 -->
-                <div class="col">
                     <div class="card h-90 position-relative">
                         <img src="images/img5.jpg" class="card-img-top" alt="Table">
                         <span class="badge text-bg-danger position-absolute m-3 p-2">-48%</span>
@@ -602,21 +594,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Mid Century Modern Round Dining Table in Oak</h6>
+                            <a href="#" class="card-title">Mid Century Modern Round Dining Table in Oak</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$569</span>
                                 <span class="text-muted text-decoration-line-through">$1099</span>
@@ -624,6 +616,7 @@
                             <div class="text-warning">★★★★★</div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -715,12 +708,12 @@
             </div>
         </div>
     </section>
-    
-        <section class="section6 my-5">
+
+    <section class="section6 my-5">
         <div class="container-fluid" style=" margin-top: 9%;">
-            <div class=" d-flex justify-content-center align-items-center">
+            <div class=" d-flex justify-content-center align-items-center py-4">
                 <h3 style=" font-weight: bolder;"> New Arrivals</h3>
-                
+
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-0">
 
@@ -734,21 +727,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">High seating comfort with built in armrest</h6>
+                            <a href="#" class="card-title">High seating comfort with built in armrest</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$1,465</span>
                                 <span class="text-muted text-decoration-line-through">$1,536</span>
@@ -768,21 +761,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Slate Table Lamp with Natural Slate Finish</h6>
+                            <a href="#" class="card-title">Slate Table Lamp with Natural Slate Finish</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$138</span>
                                 <span class="text-muted text-decoration-line-through">$188</span>
@@ -802,21 +795,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">14-inch Fashion Simplicity Quality Wall Clock</h6>
+                            <a href="#" class="card-title">14-inch Fashion Simplicity Quality Wall Clock</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$50</span>
                                 <span class="text-muted text-decoration-line-through">$75</span>
@@ -836,21 +829,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Studio Designs Home, Heather Studio Designs Chair</h6>
+                            <a href="#" class="card-title">Studio Designs Home, Heather Studio Designs Chair</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$192</span>
                                 <span class="text-muted text-decoration-line-through">$239</span>
@@ -870,21 +863,21 @@
                                 data-bs-title="Wishlist">
                                 <i class="fa-solid fa-heart"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Compare">
                                 <i class="fa-solid fa-left-right"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Quick View">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                             <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
                                 data-bs-title="Add to cart">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-title">Mid Century Modern Round Dining Table in Oak</h6>
+                            <a href="#" class="card-title">Mid Century Modern Round Dining Table in Oak</a>
                             <p class="mb-1">
                                 <span class="fw-bold">$569</span>
                                 <span class="text-muted text-decoration-line-through">$1099</span>
@@ -895,16 +888,388 @@
                 </div>
 
             </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-0">
+
+
+                <div class="col">
+                    <div class="card h-90 position-relative">
+                        <img src="images/img.jpg" class="card-img-top" alt="Chair">
+                        <span class="badge text-bg-secondary position-absolute m-3 p-2">SOLDOUT</span>
+                        <div class="position-absolute" style="margin-left:80%; top: 2%;">
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Compare">
+                                <i class="fa-solid fa-left-right"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Quick View">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Add to cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-title">High seating comfort with built in armrest</a>
+                            <p class="mb-1">
+                                <span class="fw-bold">$1,465</span>
+                                <span class="text-muted text-decoration-line-through">$1,536</span>
+                            </p>
+                            <div class="text-warning">★★★★☆</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-90 position-relative">
+                        <img src="images/img2.jpg" class="card-img-top" alt="Lamp">
+                        <span class="badge text-bg-danger position-absolute m-3 p-2">-26%</span>
+                        <div class="position-absolute" style="margin-left:80%; top: 2%;">
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Compare">
+                                <i class="fa-solid fa-left-right"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Quick View">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Add to cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-title">Slate Table Lamp with Natural Slate Finish</a>
+                            <p class="mb-1">
+                                <span class="fw-bold">$138</span>
+                                <span class="text-muted text-decoration-line-through">$188</span>
+                            </p>
+                            <div class="text-warning">★★☆☆☆</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-90 position-relative">
+                        <img src="images/img3.jpg" class="card-img-top" alt="Clock">
+                        <span class="badge text-bg-danger position-absolute m-3 p-2">-33%</span>
+                        <div class="position-absolute" style="margin-left:80%; top: 2%;">
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Compare">
+                                <i class="fa-solid fa-left-right"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Quick View">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Add to cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-title">14-inch Fashion Simplicity Quality Wall Clock</a>
+                            <p class="mb-1">
+                                <span class="fw-bold">$50</span>
+                                <span class="text-muted text-decoration-line-through">$75</span>
+                            </p>
+                            <div class="text-warning">★★★☆☆</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-90 position-relative">
+                        <img src="images/img4.jpg" class="card-img-top" alt="Chair2">
+                        <span class="badge text-bg-danger position-absolute m-3 p-2">-20%</span>
+                        <div class="position-absolute" style="margin-left:80%; top: 2%;">
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Compare">
+                                <i class="fa-solid fa-left-right"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Quick View">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Add to cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-title">Studio Designs Home, Heather Studio Designs Chair</a>
+                            <p class="mb-1">
+                                <span class="fw-bold">$192</span>
+                                <span class="text-muted text-decoration-line-through">$239</span>
+                            </p>
+                            <div class="text-warning">★★★★☆</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-90 position-relative">
+                        <img src="images/img5.jpg" class="card-img-top" alt="Table">
+                        <span class="badge text-bg-danger position-absolute m-3 p-2">-48%</span>
+                        <div class="position-absolute" style="margin-left:80%; top: 2%;">
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Compare">
+                                <i class="fa-solid fa-left-right"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Quick View">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="btn icon-box" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Add to cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-title">Mid Century Modern Round Dining Table in Oak</a>
+                            <p class="mb-1">
+                                <span class="fw-bold">$569</span>
+                                <span class="text-muted text-decoration-line-through">$1099</span>
+                            </p>
+                            <div class="text-warning">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class=" mb-5 under-line" style="margin: 1% 45%;">See all products</a>
         </div>
     </section>
+    <section class="section7">
+        <div class="container-fluid rounded-3">
+            <div class="row bg-color-green rounded-3">
+                <div class="col-5" style="    padding: 5% 1%;">
+                    <h1 class=" text-dark " style="font-weight: bolder;">Earn Cash Back For The Things You Buy Every
+                        Where</h1>
+                    <p>Application via. <span class="under-line "> Terms & Conditions. </span></p>
+                </div>
+                <div class="col-2" style="padding: 9% 4%;">
+                    <button class="btn btn-view-more d-flex"> View More</button>
+                </div>
+                <div class="col-5">
+                    <img src="images/pay img.png" style="width: 100%; height:260px;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section8">
+        <div class="container-fluid border-bottom border-secondry border-2 pb-2 pt-2 ">
+            <h3 class="text-center mt-5 mb-2" style="font-weight: bolder;">Shop by Department</h3>
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-6 col-md-3">
+                    <div class="shop-card ">
+                        <div class="my-5">
+                            <img src="images/table.jpg" alt="Coffee Table">
+                        </div>
+                        <h5>Coffee Table from $20</h5>
+                        <a href="#" class="under-line">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="shop-card ">
+                        <div class="my-5">
+                            <img src="images/chair.jpg" alt="Sofa">
+                        </div>
+                        <h5>Sectionals from $300</h5>
+                        <a href="#" class="under-line">Shop now <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="shop-card ">
+                        <div class="my-5">
+                            <img src="images/flowers.jpg" alt="Vase">
+                        </div>
+                        <h5>Flower Vase from $5</h5>
+                        <a href="#" class="under-line">Shop now <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="shop-card">
+                        <div class="my-5">
+                            <img src="images/bed.jpg" alt="Bed">
+                        </div>
+                        <h5>Headboard Sale Off</h5>
+                        <a href="#" class="under-line">Shop now <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section9 my-5">
+        <div class="container-fluid">
+            <div class="owl-carousel carousel-two">
+                <div> <img src="images/1.jpg" class="d-block brand-img " alt="..."></div>
+                <div> <img src="images/2.jpg" class="d-block brand-img" alt="..."></div>
+                <div> <img src="images/3.jpg" class="d-block brand-img" alt="..."></div>
+                <div> <img src="images/4.jpg" class="d-block brand-img" alt="..."></div>
+                <div> <img src="images/5.jpg" class="d-block brand-img" alt="..."></div>
+                <div> <img src="images/6.jpg" class="d-block brand-img" alt="..."></div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-lightgray text-dark pt-5 pb-3">
+        <div class="container-fluid border-bottom border-secondry border-2 pb-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-flex justify-content-center" style="font-weight: bolder;">Join our newsletter</h1>
+                </div>
+                <div class="col-12">
+                    <p class="d-flex justify-content-center" style="margin: 2% 0%;">Get recommendations, tips, updates,
+                        promotions and more</p>
+                </div>
+                <div class="col-12">
+                    <form class="d-flex bg-light w-50 justify-content-center rounded-3 " style="margin: 0% auto; margin-bottom: 3%;">
+                        <input class="form-control me-2 bg-light " type="email" required placeholder="enter your email address" />
+                        <button class="btn bg-light text-dark" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+
+                    </form>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="w-10">
+                        <img src="images/logo-furniture.png" style="width: 38%;" alt="">
+                    </div>
+                    <p><i class="bi bi-geo-alt"></i> 29 SE 2nd Ave, Miami <br> Florida 3131, United States</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    <a><i class="bi bi-telephone"></i> (+92) 3942 7879</a>
+                </div>
+
+                <!-- --------Shop More------- -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">SHOP MORE</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">New Arrival</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Sale off</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Living Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bedroom</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Dinner Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bathroom</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Kitchen Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Home Office</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Home Decoration</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Outdoor</a></li>
+                    </ul>
+                </div>
+
+                <!-- Shopping -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">SHOPPING</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Wishlist</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Shop by Brand</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Offers</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Track order</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Size Guide</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">INFORMATION</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Track Order</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">About us</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Help</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Account -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">ACCOUNT</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Cart</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">My account</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">My orders</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Wishlist</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Affiliate Program</a></li>
+                    </ul>
+                </div>
+
+            </div>
 
 
 
-  
+
+        </div>
+        <div class="d-flex justify-content-between align-items-center flex-column flex-md-row px-5 py-3">
+            <p class="mb-2 mb-md-0">© Copyright © Merto. All Rights Reserved</p>
+            <div class="d-flex align-items-center">
+
+                <ul class="d-flex justify-content-end fs-5">
+                    <li class="pe-2 ">
+                        <a><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-youtube "></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-instagram "></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-right: 2%;">
+                <img src="https://img.icons8.com/color/48/000000/paypal.png" width="40" alt="paypal" />
+                <img src="https://img.icons8.com/color/48/000000/visa.png" width="40" alt="visa" />
+                <img src="https://img.icons8.com/color/48/000000/mastercard.png" width="40" alt="mastercard" />
+            </div>
+        </div>
+
+    </footer>
+    <button id="backToTop" class="btn btn-dark text-light"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

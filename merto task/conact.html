@@ -1,11 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Coctact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <nav class="navbar bg-body-tertiary bg-white sticky-top">
+
+        <div class=" container-fluid">
+
+            <div class="width10">
+                <img src="images/logo-furniture.png" class="width100" alt="">
+            </div>
+            <form class="d-flex bg-lightgray rounded-3" role="search">
+                <div class="dropdown custom-border-right">
+                    <a class="btn bg-lightgray dropdown-toggle custom-left-border pb-3" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu overflow-auto" style="max-height: 200px;">
+                        <li><a class="dropdown-item" href="#">Autopart</a></li>
+                        <li><a class="dropdown-item" href="#">Accessories</a></li>
+                        <li><a class="dropdown-item" href="#">Car Care</a></li>
+                        <li><a class="dropdown-item" href="#">Car Electronics</a></li>
+                        <li><a class="dropdown-item" href="#">Equipment</a></li>
+                        <li><a class="dropdown-item" href="#">Lights</a></li>
+                        <li><a class="dropdown-item" href="#">Oils & Fluids</a></li>
+                        <li><a class="dropdown-item" href="#">Tires</a></li>
+                        <li><a class="dropdown-item" href="#">Wheels</a></li>
+                        <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
+                        <li><a class="dropdown-item" href="#">Bags & Cases</a></li>
+                        <li><a class="dropdown-item" href="#">BB Creams</a></li>
+                        <li><a class="dropdown-item" href="#">Body & bath</a></li>
+                        <li><a class="dropdown-item" href="#">Brushes & Tools</a></li>
+                        <li><a class="dropdown-item" href="#">Hair Care</a></li>
+                        <li><a class="dropdown-item" href="#">Lipstick</a></li>
+                        <li><a class="dropdown-item" href="#">Makeup</a></li>
+                        <li><a class="dropdown-item" href="#">Makeup Pallettes</a></li>
+                    </ul>
+                </div>
+                <input class="form-control me-2 bg-lightgray " type="search" placeholder="Search for products"
+                    aria-label="Search" />
+                <button class="btn btn-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="d-flex">
+                <ul class="d-flex mb-0">
+                    <li class="width-10  align-items-center">
+                        <a class="bg-white dropdown-toggle d-inline-flex font-size " data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <p class="mb-0">
+                                <img src="images/England.png" width="20" class="me-1 mb-1 bg-light" alt="">
+                                English
+                            </p>
+                        </a>
+                        <ul class="dropdown-menu" style="margin-left: 64%;">
+                            <li><a class="dropdown-item font-size" href="#">
+                                    <img src="images/France.png" width="20" class="me-1 mb-1 bg-light" alt="">
+                                    Francais
+                                </a></li>
+                            <li><a class="dropdown-item font-size" href="#">
+                                    <img src="images/Portugal.png" width="20" class="me-1 mb-1 bg-light" alt="">
+                                    Protugues
+                                </a></li>
+                            <li><a class="dropdown-item font-size" href="#">
+                                    <img src="images/Spain.png" width="20" class="me-1 mb-1 bg-light" alt="">
+                                    Espanol
+                                </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="width-10  align-items-center ms-2  pe-3">
+                        <a class="bg-white dropdown-toggle d-inline-flex font-size " data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <p class="mb-0">
+                                USD
+                            </p>
+                        </a>
+                        <ul class="dropdown-menu" style="margin-left: 68%;">
+                            <li><a class="dropdown-item font-size" href="#">
+                                    EUR
+                                </a></li>
+                            <li><a class="dropdown-item font-size" href="#">
+                                    BRL
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h5><i class="fa-regular fa-user"></i>Account</h5>
+            <h6 class=" position-relative">
+                <i class="fa-regular fa-heart"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    0
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </h6>
+            <h6 class=" position-relative">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    0
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </h6>
+    </nav>
+    <header class="border-bottom border-secondry border-top border-secondry ">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <button class="btn w-25 bg-white text-dark align-items-center p-2 mt-2" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions"> <i class="fa-solid fa-bars"></i>
+                SHOP BY Categories
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <div class="bg-dark text-light w-100 d-flex justify-content-between align-items-center ">
+                        <h5 class="offcanvas-title bg-dark text-light p-3 rounded-3" id="offcanvasWithBothOptionsLabel">
+                            <i class="fa-solid fa-bars"></i> SHOP BY Categories
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="">
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-couch"></i>
+                            <a href=""> Living Room</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-bed"></i>
+                            <a href=""> Bed Room</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-chair"></i>
+                            <a href=""> Dinning Room</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-bath"></i>
+                            <a href="">Bath Room</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-utensils"></i>
+                            <a href=""> Kitchen Room</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-house-laptop"></i>
+                            <a href=""> Home Office</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-plant-wilt"></i>
+                            <a href=""> Home Decoration</a>
+                        </li>
+                        <li class="border-bottom border-secondry border-2 p-2">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                            <a href=""> Outdoor</a>
+                        </li>
+                        <li class="">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <a href="">Sale Off</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-50 align-items-center d-flex">
+                <ul class="pt-3 d-flex">
+                    <li class="pe-3">
+                        <a href="index.html">Home Page</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li class="pe-3">Shop
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li class="pe-3">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Simple Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Label Attribute
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Dropdown Attribute
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-color Swatch
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Variation Thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Group Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        External Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Vertical thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Horizontal thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Summary Scrolling
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Flash Sale
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Video + 360 degree
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pe-3">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Simple Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Label Attribute
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Dropdown Attribute
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-color Swatch
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Variable-Variation Thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Group Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        External Product
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Vertical thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Horizontal thumbnail
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Summary Scrolling
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Flash Sale
+                                    </a></li>
+                                <li><a class="dropdown-item font-size" href="#">
+                                        Video + 360 degree
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="dropdown d-flex">
+                <a class=" dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Recently Viewed
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item font-size" href="#">
+                            Simple Product
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Variable-Label Attribute
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Variable-Dropdown Attribute
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Variable-color Swatch
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Variable-Variation Thumbnail
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Group Product
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            External Product
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Vertical thumbnail
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Horizontal thumbnail
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Summary Scrolling
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Flash Sale
+                        </a></li>
+                    <li><a class="dropdown-item font-size" href="#">
+                            Video + 360 degree
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <section class="section1">
+        <div class="container-fluid" style="padding: 6% 2%;">
+            <h1 class="d-flex align-items-center justify-content-center fw-bold" style="font-size: 95px;">Contact us
+            </h1>
+            <p class="d-flex align-items-center justify-content-center text-muted mt-2">34 Main Street, Los Angeles 9021
+            </p>
+            <p class="d-flex align-items-center justify-content-center text-muted ">United States</p>
+            <div style="margin-left: 9%;margin-top: 4%;">
+                <div class="row d-flex " style="margin: 0% 10%;">
+                    <div class="col-3">
+                        <i class="fa-solid fa-phone " style=" font-size: 35px; padding-bottom: 3%;"></i>
+                        <h6 class="fw-bold">Customer service</h6>
+                        <a href="#" class="under-line">+92 3942 7879</a>
+                        <p class="text-muted">Call us from 8am to 8pm</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-message" style=" font-size: 35px; padding-bottom: 3%;"></i>
+                        <h6 class="fw-bold">Chat with us</h6>
+                        <a href="#" class="under-line"><span class="bg-success rounded-circle d-inline-block"
+                                style="width:10px; height:10px;"></span>
+                            Live Chat
+                        </a>
+                        <p class="text-muted">Daily: 8 am to 11 pm</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-envelope" style=" font-size: 35px; padding-bottom: 3%;"></i>
+                        <h6 class="fw-bold">Write to us</h6>
+                        <a href="#" class="under-line">contact@example.com</a>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-user-plus" style=" font-size: 35px; padding-bottom: 3%;"></i>
+                        <h6 class="fw-bold">Follow us</h6>
+                        <ul class="d-flex justify-content-end align-items-center fs-5" style="margin-right: 24%;">
+                            <li class="pe-2 ">
+                                <a><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="pe-2">
+                                <a><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                            <li class="pe-2">
+                                <a><i class="fa-brands fa-youtube "></i></a>
+                            </li>
+                            <li class="pe-2">
+                                <a><i class="fa-brands fa-instagram "></i></a>
+                            </li>
+                            <li class="pe-2">
+                                <a><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="container-fluid" style="padding: 6% 2%;">
+            <h3 class="d-flex justify-content-center align-items-center fw-bold" style=" padding: 2% 0%;">Do you have
+                some questions?</h3>
+                 <p class="text-dark bg-secondary  text-center py-2 mb-4 w-100 rounded d-none " id="errorMessage"></p>
+            <form class="d-flex justify-content-center align-items-center" id="contactForm">
+                <div class="row w-50 g-3">
+                    <div class="col d-flex" style="margin-right: 5%;">
+                        <input type="text" name="name" id="usertName"
+                            style="background-color: rgb(228, 228, 228); border: none; border-radius: 5px; padding-right: 45%; padding-left: 5%; padding-top: 3%; padding-bottom: 3%;"
+                            placeholder="Name and Surname* ">
+                            <p class="text-danger"></p>
+
+                    </div>
+                    <div class="col d-flex">
+                        <input type="email" name="email" id="userEmail"
+                            style="background-color: rgb(228, 228, 228); border: none; border-radius: 5px; padding-right: 45%; padding-left: 5%; padding-top: 3%; padding-bottom: 3%;"
+                            placeholder="Email*">
+                            <p class="text-danger"></p>
+
+                    </div>
+
+                    <div class="col" style="margin-right: 4%;">
+                        <input type="text" name="subject" id="subjectUser"
+                            style="background-color: rgb(228, 228, 228); border: none; border-radius: 5px; padding-right: 75%; padding-left: 5%; padding-top: 2%; padding-bottom: 2%;"
+                            placeholder="Sudject* ">
+                    </div>
+                    <div class="col" style="margin-right: 22%;">
+                        <textarea rows="5" cols="30"
+                            style="background-color: rgb(228, 228, 228); border: none; border-radius: 5px; padding-right: 79%; padding-left: 5%; padding-top: 2%; padding-bottom: 2%;"
+                            placeholder="Message* "></textarea>
+                    </div>
+                </div>
+            </form>
+            <div style="margin-right: 20%;">
+                <button type="submit" class="btn btn-black fw-bold"
+                    style="padding: 1% 27%; margin-left: 32%; margin-top: 1%;">GET IN TOUCH</button>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div style="width:100%;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d442192.8900434017!2d31.52079461130399!3d30.018722757379077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sikea%20egypt!5e0!3m2!1sar!2seg!4v1757688019748!5m2!1sar!2seg"
+                width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <section class="section4" >
+        <div class="container-fluid" style="padding: 3% 0%;">
+            <h3 class="d-flex justify-content-center align-items-center fw-bold" style=" padding: 2% 0%;">Stores around
+                the world</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card store-card">
+                        <div class="store-img">
+                            <img src="images/page2-img1.jpg" class="card-img-top" alt="Los Angeles">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Los Angeles</h5>
+                            <p class="card-text">34 Main Street, Los Angeles 9021<br>United States</p>
+                            <p class="text-muted">+02 1234 567 88</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card store-card">
+                        <div class="store-img">
+                            <img src="images/page2-img2.jpg" class="card-img-top" alt="New York">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">New York</h5>
+                            <p class="card-text">515 Broadway 10015 New York<br>United States</p>
+                            <p class="text-muted">+49 1234 567 88</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card store-card">
+                        <div class="store-img">
+                            <img src="images/page2-img3.jpg" class="card-img-top" alt="California">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">California</h5>
+                            <p class="card-text">1000 California St 68114 Omaha<br>United States</p>
+                            <p class="text-muted">+44 1234 567 88</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-lightgray text-dark pt-5 pb-3">
+        <div class="container-fluid border-bottom border-secondry border-2 pb-2 pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-flex justify-content-center" style="font-weight: bolder;">Join our newsletter</h1>
+                </div>
+                <div class="col-12">
+                    <p class="d-flex justify-content-center" style="margin: 2% 0%;">Get recommendations, tips, updates,
+                        promotions and more</p>
+                </div>
+                <div class="col-12">
+                    <form class="d-flex bg-light w-50 justify-content-center rounded-3 "
+                        style="margin: 0% auto; margin-bottom: 3%;">
+                        <input class="form-control me-2 bg-light " type="email" required
+                            placeholder="enter your email address" />
+                        <button class="btn bg-light text-dark" type="submit"><i
+                                class="fa-solid fa-arrow-right"></i></button>
+
+                    </form>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="w-10">
+                        <img src="images/logo-furniture.png" style="width: 38%;" alt="">
+                    </div>
+                    <p><i class="bi bi-geo-alt"></i> 29 SE 2nd Ave, Miami <br> Florida 3131, United States</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    <a><i class="bi bi-telephone"></i> (+92) 3942 7879</a>
+                </div>
+
+                <!-- --------Shop More------- -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">SHOP MORE</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">New Arrival</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Sale off</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Living Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bedroom</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Dinner Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bathroom</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Kitchen Room</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Home Office</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Home Decoration</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Outdoor</a></li>
+                    </ul>
+                </div>
+
+                <!-- Shopping -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">SHOPPING</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Wishlist</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Shop by Brand</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Offers</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Track order</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Size Guide</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">INFORMATION</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Track Order</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">About us</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Help</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Account -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">ACCOUNT</h6>
+                    <ul class="">
+                        <li><a href="#" class="text-dark text-decoration-none">Cart</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">My account</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">My orders</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Wishlist</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Affiliate Program</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center flex-column flex-md-row px-5 py-3">
+            <p class="mb-2 mb-md-0">© Copyright © Merto. All Rights Reserved</p>
+            <div class="d-flex align-items-center">
+
+                <ul class="d-flex justify-content-end fs-5">
+                    <li class="pe-2 ">
+                        <a><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-youtube "></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-instagram "></i></a>
+                    </li>
+                    <li class="pe-2">
+                        <a><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-right: 2%;">
+                <img src="https://img.icons8.com/color/48/000000/paypal.png" width="40" alt="paypal" />
+                <img src="https://img.icons8.com/color/48/000000/visa.png" width="40" alt="visa" />
+                <img src="https://img.icons8.com/color/48/000000/mastercard.png" width="40" alt="mastercard" />
+            </div>
+        </div>
+
+    </footer>
+
+
+    <button id="backToTop" class="btn btn-dark text-light"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
